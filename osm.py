@@ -110,15 +110,10 @@ for street in all_streets:
     if(street['city'] == 'Thessaloniki' or street['city'] == 'Θεσσαλονίκη'):
         if len(street['locations']) > 0:
             for location in street['locations']:
-
                 test_point = {'lat': float(
                     location['lat']), 'lon': float(location['lon'])}
-
-                
-
                 if test_point['lat'] >= se_point['lat'] and test_point['lon'] <= se_point ['lon'] and test_point['lat'] <= nw_point ['lat'] and test_point['lon'] >= nw_point['lon']:
                     is_in_range = True
-
     if is_in_range:
         print(street)
         found_streets.append(
