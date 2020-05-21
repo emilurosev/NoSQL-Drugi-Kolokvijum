@@ -1,6 +1,6 @@
 Koraci:
     - Instalirati pymongo Python bilblioteku
-    - Preuzeti greece-latest.osm XML fajl sa http://download.geofabrik.de/europe/greece-latest.osm.bz2
+    - Preuzeti greece-latest.osm XML fajl sa http://download.geofabrik.de/europe/greece-latest.osm.bz2 i raspakovati ga u folder gde je osm.py
     - Pokrenuti lokalno MongoDB na portu 27017
     - Pokrenuti Python skriptu osm.py
 Ishod: 
